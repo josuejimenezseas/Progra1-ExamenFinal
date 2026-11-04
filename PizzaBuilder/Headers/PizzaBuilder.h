@@ -14,7 +14,7 @@ public:
 
     bool AddTomato(const std::string& name, std::string& message);
     bool AddCheese(const std::string& name, std::string& message);
-    bool AddMeat(const std::string& name, std::string& message);
+    bool AddMeats(const std::string& name, std::string& message);
     bool AddHerb(const std::string& name, std::string& message);
 
     void Finish();
