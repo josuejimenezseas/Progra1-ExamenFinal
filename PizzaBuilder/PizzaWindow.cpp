@@ -202,7 +202,7 @@ void PizzaWindow::agregarCarne()
         return;
     }
     std::string mensaje;
-    const bool ok = pizza_->AddMeat(nombre, mensaje);
+    const bool ok = pizza_->AddMeats(nombre, mensaje);
     mostrarEstado(mensaje, ok);
     refrescar();
 }
